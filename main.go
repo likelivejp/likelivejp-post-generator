@@ -41,6 +41,7 @@ func main() {
 		fm = append(fm, "  - ")
 		fm = append(fm, "image: ")
 		fm = append(fm, "---")
+		fm = append(fm, "author: ")
 		fm = append(fm, "")
 		fmt.Fprintln(file, strings.Join(fm, "\n"))
 
