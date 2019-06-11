@@ -39,8 +39,8 @@ func main() {
 		fm = append(fm, "tags: ")
 		fm = append(fm, "  - ")
 		fm = append(fm, "image: ")
-		fm = append(fm, "---")
 		fm = append(fm, "author: ")
+		fm = append(fm, "---")
 		fm = append(fm, "")
 		fmt.Fprintln(file, strings.Join(fm, "\n"))
 
